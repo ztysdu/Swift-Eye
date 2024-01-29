@@ -1,4 +1,5 @@
 # Swift-Eye: Towards Anti-blink Pupil Tracking for Precise and Robust High-Frequency Near-Eye Movement Analysis with Event Cameras
+<video src="[https://github.com/username/repo/raw/main/path/to/video.mp4](https://github.com/ztysdu/Swift-Eye/blob/main/fast_forward_video.mp4)" width="640" height="480" controls></video>
 
 This is the implementation code for Swift-Eye, which was built upon [MMRotate: A Rotated Object Detection Benchmark using PyTorch](https://arxiv.org/pdf/2204.13317.pdf).
 
