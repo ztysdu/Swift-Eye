@@ -17,4 +17,7 @@ You can access the model weights from [this link](https://drive.google.com/file/
 ## Execution
 To generate results and the corresponding videos, execute `/Swift-Eye/Swift-Eye/test_interpolated.py`.
 
+## Comparison of Eye Movement Trajectories at 5000 FPS and 25 FPS
+
+https://github.com/user-attachments/assets/69c1bc11-5362-4486-a0b5-1ca6707d2711
 
