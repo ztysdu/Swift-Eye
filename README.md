@@ -6,10 +6,19 @@ https://github.com/ztysdu/Swift-Eye/assets/69748689/d0ec23c4-2f40-432f-aaf0-fbb3
 This is the implementation code for Swift-Eye, which was built upon [MMRotate: A Rotated Object Detection Benchmark using PyTorch](https://arxiv.org/pdf/2204.13317.pdf).
 
 ## Setup
-For a smooth setup, we kindly suggest referring to [mmrotate](https://github.com/open-mmlab/mmrotate) to install mmrotate and the `requirements.txt` file in our project to set up the environment.
+After cloning our repositories, you can configure the environment by following these steps:
+
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
+pip install -U openmim
+mim install mmcv-full
+mim install mmdet<3.0.0
+cd mmrotate
+pip install -v -e .
+To ensure the installation was successful, you can verify it by checking the output of pip list, where you should see something like:
+mmrotate                0.3.4       path/to/mmrotate
 
 ## Data
-A test dataset is available for download [here](https://drive.google.com/drive/folders/1YXePrgSWd677JOKhVu9X_PUzqwv4D_49?usp=sharing). After downloading, please unzip the folder and place it in the `Swift_Eye/mmrotate/train_swift_eye` directory. If you require additional data, consider checking [EV-Eye](https://github.com/Ningreka/EV-Eye) and utilizing the code from timelens in the other folder.
+A test dataset is available for download [here](https://drive.google.com/drive/folders/1YXePrgSWd677JOKhVu9X_PUzqwv4D_49?usp=sharing). After downloading, please unzip the folder and place it in the `Swift_Eye/mmrotate/train_swift_eye` directory. If you require additional data, consider checking [EV-Eye](https://github.com/Ningreka/EV-Eye) and utilizing the code from [timelens](https://github.com/ztysdu/timelens).
 
 ## Model Weights
 You can access the model weights from [this link](https://drive.google.com/file/d/1MprhEY5HoQKO-ZuFl7q_JyCu5l4oU_Zx/view?usp=sharing). After downloading, kindly place the weighst in the `Swift_Eye/mmrotate/train_swift_eye/swift_eye` directory.
