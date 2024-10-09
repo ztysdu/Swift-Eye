@@ -9,12 +9,19 @@ This is the implementation code for Swift-Eye, which was built upon [MMRotate: A
 After cloning our repositories, you can configure the environment by following these steps:
 
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
+
 pip install -U openmim
+
 mim install mmcv-full
+
 mim install mmdet<3.0.0
+
 cd mmrotate
+
 pip install -v -e .
+
 To ensure the installation was successful, you can verify it by checking the output of pip list, where you should see something like:
+
 mmrotate                0.3.4       path/to/mmrotate
 
 ## Data
