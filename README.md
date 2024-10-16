@@ -27,8 +27,12 @@ mmrotate                0.3.4       path/to/mmrotate
 ## Data
 A test dataset is available for download [here](https://drive.google.com/drive/folders/1YXePrgSWd677JOKhVu9X_PUzqwv4D_49?usp=sharing). After downloading, please unzip the folder and place it in the `Swift_Eye/mmrotate/train_swift_eye` directory. If you require additional data, consider checking [EV-Eye](https://github.com/Ningreka/EV-Eye) and utilizing the code from [timelens](https://github.com/ztysdu/timelens).
 
+[training dataset](https://drive.google.com/file/d/1WmuBztRHI5QVkb3n6qZfVRFXXiKOCkBN/view?usp=drive_link)
+
+[test dataset](https://drive.google.com/file/d/1MuInyfeuse1zrHjGaKsow2Vvg8Hz8MNq/view?usp=drive_link)
+
 ## Model Weights
-You can access the model weights from [this link](https://drive.google.com/file/d/1MprhEY5HoQKO-ZuFl7q_JyCu5l4oU_Zx/view?usp=sharing). After downloading, kindly place the weighst in the `Swift_Eye/mmrotate/train_swift_eye/swift_eye` directory.
+You can access the model weights from [this link](https://drive.google.com/file/d/18T-Kr_bDskaaowGCmdRbB8Hovzn8TEKH/view?usp=sharing). After downloading, kindly place the weighst in the `Swift_Eye/mmrotate/train_swift_eye/swift_eye` directory.
 
 ## Execution
 To generate results and the corresponding videos, execute `/Swift-Eye/Swift-Eye/test_interpolated.py`.
