@@ -26,6 +26,7 @@ mmrotate                0.3.4       path/to/mmrotate
 
 ## Data
 A test dataset is available for download [here](https://drive.google.com/drive/folders/1YXePrgSWd677JOKhVu9X_PUzqwv4D_49?usp=sharing). After downloading, please unzip the folder and place it in the `Swift_Eye/mmrotate/train_swift_eye` directory. If you require additional data, consider checking [EV-Eye](https://github.com/Ningreka/EV-Eye) and utilizing the code from [timelens](https://github.com/ztysdu/timelens).
+
 [train_backbone_and_neck](https://drive.google.com/file/d/1Qy5BtB00_kk5sIbW40pUwJJYHkKpy2Qy/view?usp=sharing)
 
 [train_with_temporal_fusion_component](https://drive.google.com/file/d/1CPtfQgR8WVcSe48SR1E51TJmCYk3tHLo/view?usp=sharing)
