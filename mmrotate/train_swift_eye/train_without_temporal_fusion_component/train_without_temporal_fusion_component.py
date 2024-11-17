@@ -129,7 +129,7 @@ def process_data(data):
         data_inference['gt_bboxes'] = [data['gt_bboxes'].data[0]]
         data_inference['gt_labels'] = [data['gt_labels'].data[0]]
         data_inference = scatter(data_inference ,[0])[0]
-        img_tensor=data_inference['img'][0]#tensor:batch_size*2,C,H,W
+        img_tensor=data_inference['img'][0]
 
         features=refine_model.get_features(img_tensor)
         features=tuple([features[0]])
