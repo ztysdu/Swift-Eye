@@ -35,7 +35,7 @@ A test dataset is available for download [here](https://drive.google.com/drive/f
 
 [train Occlusion-ratio estimator](https://drive.google.com/file/d/11Sk83zsnMnizQh0fk8uP3ArfBtwWx5SI/view?usp=sharing)
 
-[test_data](https://drive.google.com/file/d/1MuInyfeuse1zrHjGaKsow2Vvg8Hz8MNq/view?usp=sharing)
+[test_data](https://drive.google.com/file/d/1-CdodFlK3ipTvTj5O2e3cGnBCBHuv4CW/view?usp=sharing)
 
 
 
